@@ -1,9 +1,10 @@
-import {TitleBlock, TextBlock} from '../classes/Blocks';
+import {TitleBlock, TextBlock} from './Blocks';
 
 export class Sidebar {
-	constructor(selector, update) {
+	constructor(selector, update, remove) {
 		this.$el = document.querySelector(selector);
 		this.update = update;
+		this.remove = remove;
 		this.init()
 	}
 
@@ -16,23 +17,27 @@ export class Sidebar {
 		return [
 			block('Заголовок'),
 			block('Строка с текстом'),
+			createNewModel('Очистить сайт'),
 		].join('');
 	}
 
 	addBlock(event){
 		event.preventDefault();
+		if (event.target.name.toUpperCase() == 'Очистить сайт'.toUpperCase()){
+			this.remove([]);
+		} else {
+			let type = event.target.name;
+			let value = event.target.value.value;
+			let styles = event.target.styles.value;
 
-		let type = event.target.name;
-		let value = event.target.value.value;
-		let styles = event.target.styles.value;
+			const Constructor = type === 'text' ? TextBlock : TitleBlock;
 
-		const Constructor = type === 'text' ? TextBlock : TitleBlock;
+			event.target.value.value = '';
+			event.target.styles.value = '';
 
-		event.target.value.value = '';
-		event.target.styles.value = '';
-
-		const newBlock = new Constructor(value, {styles});
-		this.update(newBlock);
+			const newBlock = new Constructor(value, {styles});
+			this.update(newBlock);
+		}
 	}
 }
 
@@ -49,5 +54,16 @@ function block(type) {
 		<button type="submit" class="btn btn-primary btn-sm">Добавить</button>
 	</form>
 	<hr />
-  `)
+  `);
 }
+
+function createNewModel(type) {
+	return (`
+	<form name="${type}">
+		<h5>${type}</h5>
+		<button type="submit" class="btn btn-primary btn-sm">Очистить сайт</button>
+	</form>
+	<hr />
+  `);
+}
+

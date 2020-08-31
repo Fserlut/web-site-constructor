@@ -1,8 +1,7 @@
-import imageSrc from './assets/me.jpg';
 import {css} from './utils'
-import {TextBlock, TitleBlock, TextColumnsBlock, ImageBlock} from "./classes/Blocks";
+import {TextBlock, TitleBlock} from "./classes/Blocks";
 
-export const model = [
+export let model = [
 	new TitleBlock('Конструктор сайтов', {
 		tag: 'h2',
 		styles: css({
@@ -26,3 +25,12 @@ export const model = [
 		}),
 	}),
 ]
+
+export const clearModel = [
+	{
+		isCreated: false,
+	},
+	[
+
+	]
+];

@@ -1,6 +1,6 @@
 import {col, row} from "../utils";
 
-class Block {
+export class Block {
 	constructor(type, value, options) {
 		this.value = value;
 		this.type = type;

@@ -10,7 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b0589bf-d632-4c40-9974-0b5b93b8dc35" name="Default Changelist" comment="" />
+    <list default="true" id="2b0589bf-d632-4c40-9974-0b5b93b8dc35" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Blocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Blocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Site.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Site.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +70,10 @@
       <option name="presentableId" value="Default" />
       <updated>1598096749325</updated>
       <workItem from="1598096751124" duration="3242000" />
-      <workItem from="1598133757478" duration="9464000" />
+      <workItem from="1598133757478" duration="10078000" />
+      <workItem from="1598487190625" duration="4814000" />
+      <workItem from="1598697808955" duration="3192000" />
+      <workItem from="1598860306447" duration="238000" />
     </task>
     <servers />
   </component>
@@ -80,6 +90,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="408" y="103" key="#CSS" timestamp="1598099248441">
@@ -98,14 +109,18 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="372" y="116" key="#JavaScript/0.0.1280.800@0.0.1280.800" timestamp="1598097326744" />
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598491405037">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1598491405037" />
     <state x="149" y="39" key="SettingsEditor" timestamp="1598097056507">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1598097056507" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1598185086653">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1598860432827">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1598185086653" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1598860432827" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1598184815028">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
